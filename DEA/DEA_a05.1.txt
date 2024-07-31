@@ -1,0 +1,60 @@
+ED_Spider_Glasher - A hybrid of the Guard and Slasher, best of both worlds. Includes ice and radiation biome variants.
+ED_Spider_Spitter_Cyan - A web spitter variant which applies the stalker shield disruption effect
+ED_Spider_Spitter_Pink - A web spitter variant which applies a marked-for-death status effect
+ED_Spider_Spitter_Stagger - A web spitter variant which applies the slasher stun effect
+ED_Spider_Spitter_White - A web spitter variant which does not apply any status effect
+ED_Spider_Shooter_Spawner - A ground acid spitter which lobs dreadnaught swarmer eggs which spawn 2*enemy count modifier of ED_Spider_Swarmer_SpawnShot
+ED_Spider_Slobber - A septic spreader variant which lobs deadnaught swarmer eggs which spawn 2*enemy count modifier of ED_Spider_Swarmer_SpawnShot
+ED_Spider_Shooter_Ice - An acid spitter variant which applies cold damage on hit, rather than the acid STE
+ED_Spider_Shooter_Fire - an acid spitter variant which fires OG dread fireball, slightly less aggressive behavior
+ED_Spider_Shooter_Bouncer - A ground acid spitter which lobs RJ250 at you. Should do half the damage of a typical spitter prj, within 2m max damage radius
+ED_Mactera_Trundle - A hybrid of the tri-jaw and brundle. I suggest using CD2 to change its materials if you use it
+ED_Spider_Grooter - A grunt/acid lobber hybrid which will lob ground acid spitter PRJs in a tri jaw like pattern. Mostly a proof of concept hybrid ranged/melee enemy
+ED_Spider_Grooter_Wall - hybrid melee/range grunt with wall pathfinding preference, same triple acid lob attack as grooter
+ED_Spider_Grooter_Ceiling - grooter with ceiling pathfinding preference, and normal acid spitter attack
+ED_Spider_Gritter_Wall - lower health than grooter, with web spitter attack instead of acid
+ED_Spider_Gritter_Ceiling - ceiling pathfinding preference 
+
+ED_Spider_Fanatic - A menace variant which uses the arbalest fireball fan attack, rather than normal menace attack. Long delay between attacks, and fires 5 times before reburrowing. 
+ED_Spider_ShotgunMenace - Similar to the Fanatic, but fires 9 fireballs in a grid pattern, rather than 5 in a fan
+
+ED_Mactera_Pentajaw - tri = 3, penta = 5
+ED_StabberVine - these are spawning... weirdly but they do spawn on horizontal surfaces and rotate correctly at least
+ED_Bomber_NoShot - Goo bomber with no projectile attack
+
+ED_Parabomber - drops spawn eggs and fires an egg which applies phero STE. greatly reduced drop rate compared to typical goober and each spawn egg spawns 1*enemy  count modifier of ED_Spider_Swarmer_SpawnShot
+ED_Enola_Gay - guess
+ED_Arbabomber - firebomber with projectile attack replaced with arbalest mines, no visual difference from firebomber
+ED_Bomber_Exploder - firebomber whose projectile attack spawns exploders, no visual difference from firebomber. spawned exploders use ED_Spider_Exploder_SpawnShot 
+
+ED_Spider_SlobberEX - spawns 6*enemy count modifier
+ED_Spider_Shooter_SpawnerEX - spawns 6*enemy count modifier
+ED_ShootingPlant_Spawner - fires spawn egg which spawns 6*enemy count modifier of ED_Spider_Swarmer_SpawnShot
+ED_ShootingPlant_SpawnerEX - also applies phero STE
+ED_ShootingPlant_Spawner_Boomer - fires spawn egg which spawns 6*enemy count modifier of ED_Spider_Exploder_SpawnShot
+
+ED_Spider_FanaticEX - original pre nerf version of Fanatic, with normal menace AI
+ED_Spider_ShotgunMenaceEX - ditto
+ED_Fauxnought - non health gated dreadnought, slightly smaller than normal dread. Has slightly above Oppressor health and Large enemy health scaling. eggshot spawns ED_Spider_Swarmer_SpawnShot
+
+Twins: do not reccomend allowing these to exist at the same time as vanilla twins. will lead to weird behavior of vanilla twin. These will not heal with vanilla twins or each other, but vanilla twins will try to heal with them and will grieve them
+ED_Fauxbalester - Arbalester that will use both attacks
+ED_Fauxbalester_Locked - Arbalester that will only use mines. technically behaves as a post heal Arbalest, but just uses mines in place of fan attack.
+ED_Lassie_Unlocked - A Lacerator that will use burrow attack. 
+ED_Lassie_Locked - A Lacerator that will not use burrow attack. Seems to really like its flamethrower attack, probably needs some tweaking. 
+ED_Banshee - Arbalest variant that will only use grieve attack
+
+
+jpeg enemies implemented
+ED_Drone_Breeder - breeder which drops homing drones instead of egg
+ED_Mactera_Shooter_Breach and ED_Mactera_Brendle - fire modified, faster version of OMEN linecutter
+ED_Mactera_RadialJaw - radialjaw
+
+includes a few EDs which don't currently work properly, or don't have a reason to exist
+ED_Parasite - originally intended as a base enemy for one of the enemy shooting enemies. same as ED_InfestationLarva. I guess it allows you to use parasites as an enemy while also replacing the enemy spawned by Parasites modifier. If that is something anybody wanted
+ED_Sprout_Versatile - attempt to create korlok sprout that could spawn on floor, ceiling, or wall to avoid having to use both floor and ceiling variant in diffs. seems to prefer the floor strongly from limited testing
+ED_Woodlouse_Shooter - rolling animation is broken
+ED_Woodlouse_Youngling_Bounce - rolling animation is broken
+ED_Fauxbalester_Unused - attempt to create an Arbalest that won't heal by using the septic spreader AI. doesn't seem to work very well from my tests
+ED_Vegbalester  - another attempt to create non healing arbalest. 
+
